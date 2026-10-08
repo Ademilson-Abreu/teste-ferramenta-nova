@@ -137,8 +137,56 @@
     border-color: var(--color-border);
   }
 
-  body {
-    background-color: var(--color-background);
-    color: var(--color-foreground);
+  html {
+    scroll-behavior: smooth;
   }
+
+  body {
+    background-color: #1A1F2C;
+    color: #F1F0FB;
+    font-family: 'Inter', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+  }
+
+  /* Esconde o badge do Lovable */
+  #lovable-badge {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+  }
+}
+
+.bg-luxury-dark {
+  background-color: #1A1F2C;
+}
+
+.bg-luxury-gold {
+  background-color: #D4AF37;
+}
+
+.text-gold {
+  color: #D4AF37;
+}
+
+.border-gold {
+  border-color: #D4AF37;
+}
+
+.bg-gradient-luxury {
+  background: linear-gradient(135deg, #1A1F2C 0%, #2A3245 50%, #1A1F2C 100%);
+}
+
+.bg-gold-gradient {
+  background: linear-gradient(135deg, #D4AF37 0%, #F3E5AB 50%, #C59B27 100%);
+}
+
+.shadow-luxury {
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+.shadow-gold {
+  box-shadow: 0 10px 30px rgba(212, 175, 55, 0.25);
 }
